@@ -171,7 +171,7 @@ public class Spelling {
         return strList;
     }
 
-    public TrieNode[] recurCheck(TrieNode[] trieArr, TrieNode node, int wordLength){
+	public TrieNode[] recurCheck(TrieNode[] trieArr, TrieNode node, int wordLength){
         //semi-base case
         if(node.val > 0){
 
